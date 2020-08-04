@@ -1,1 +1,1 @@
-# time-planner.github.io
+# time-planner
