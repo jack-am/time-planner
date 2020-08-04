@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: Navy;
+    color: black;
+}
+menu {
+    background-color: Navy;
+    color: Teal;
+    padding: 18px;
+    font-size: 18px;
+    font-family: "Lucida Console";
+    border: none;
+    cursor: pointer;
+}
+p {
+    background-color: Bisque;
+    color: Teal;
+    padding: 14px;
+    font-size: 14px;
+    font-family: "Lucida Console";
+}   
+
