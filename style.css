@@ -1,12 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: Navy;
+    background-color: #EFC9AF;
     color: black;
 }
 menu {
-    background-color: Navy;
-    color: Teal;
+    background-color: #EFC9AF;
+    color: #104C91;
     padding: 18px;
     font-size: 18px;
     font-family: "Lucida Console";
@@ -14,10 +14,10 @@ menu {
     cursor: pointer;
 }
 p {
-    background-color: Navy;
-    color: Teal;
+    background-color: #EFC9AF;
+    color: #104C91;
     padding: 14px;
     font-size: 14px;
     font-family: "Lucida Console";
-}   
+}  
 
