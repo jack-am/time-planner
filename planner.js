@@ -9,8 +9,8 @@ function setup() {
   canvas.position(0, 20);
   background(239, 201, 175);
   
-  toIndex = createA("google.com", "Home", "_self");
-  toPlanner = createA("google.com", "Planner", "_self");
+  toIndex = createA("index.html", "Home", "_self");
+  toPlanner = createA("planner.html", "Planner", "_self");
   
   textSize(12);
   fill(16, 76, 145);
