@@ -83,7 +83,7 @@ function collectScheduleData() {
 
 function printScheduleData() {
   if (hoursCounter > 0) {
-    yPos = 245;
+    yPos = 250;
     timeOne = 9;
     timeTwo = 10;
     for (let i = 0; i < scheduledItems.length; i++) {
@@ -108,7 +108,7 @@ function hourTitleReset(num) {
     hoursNum++;
     clear();
     background(239, 201, 175);
-    text("What are the things you have to do today? (total 5 items, write blank if to fill)", 20, 30);
+    text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 30);
     printToDoData();
     text("Hour " + hoursNum, 20, 205);
   } else {
