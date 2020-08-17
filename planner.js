@@ -6,11 +6,10 @@ var toDoCounter = 0;
 
 function setup() {
   canvas = createCanvas(625, 750);
-  canvas.position(0, 50);
+  canvas.position(0, 20);
   background(239, 201, 175);
   
   toIndex = createA("google.com", "Home", "_self");
-  
   toPlanner = createA("google.com", "Planner", "_self");
   
   textSize(12);
@@ -18,10 +17,10 @@ function setup() {
   textFont("Lucida Console");
   
   // to do
-  text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 40);
+  text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 30);
   
   toDoInput = createInput();
-  toDoInput.position(20, 95);
+  toDoInput.position(20, 55);
 
   var toDoAdd = createButton("Enter");
   var addButtonX = toDoInput.x + toDoInput.width + 5;
@@ -31,11 +30,11 @@ function setup() {
   
   //schedule
   hoursNum = 1;
-  hourTextPos = 200 
+  hourTextPos = 205
   text("Hour " + hoursNum, 20, hourTextPos);
   
   theHourInput = createInput();
-  theHourInput.position(20, 255);
+  theHourInput.position(20, 230);
   
   var hourButton = createButton("Enter");
   var hourButtonX = theHourInput.x + theHourInput.width + 5;
@@ -111,12 +110,12 @@ function hourTitleReset(num) {
     background(239, 201, 175);
     text("What are the things you have to do today? (total 5 items, write blank if to fill)", 20, 30);
     printToDoData();
-    text("Hour " + hoursNum, 20, 200);
+    text("Hour " + hoursNum, 20, 205);
   } else {
     clear();
     background(239, 201, 175);
     text("What are the things you have to do today? (total 5 items, write blank if to fill)", 20, 30);
     printToDoData();
-    text("done, click enter one more time", 20, 200);
+    text("done, click enter one more time", 20, 205);
   }
 }
