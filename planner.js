@@ -16,7 +16,7 @@ function setup() {
   text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 30);
   
   toDoInput = createInput();
-  toDoInput.position(20, 35);
+  toDoInput.position(20, 85);
 
   var toDoAdd = createButton("Enter");
   var addButtonX = toDoInput.x + toDoInput.width + 5;
