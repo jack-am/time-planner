@@ -114,7 +114,7 @@ function hourTitleReset(num) {
   } else {
     clear();
     background(239, 201, 175);
-    text("What are the things you have to do today? (total 5 items, write blank if to fill)", 20, 30);
+    text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 30);
     printToDoData();
     text("done, click enter one more time", 20, 205);
   }
