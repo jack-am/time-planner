@@ -1,11 +1,12 @@
-var theHourInput, toDoInput, hoursNum;
+var theHourInput, toDoInput, hoursNum, canvas;
 var toDo  = [];
 var scheduledItems = [];
 var hoursCounter = 0;
 var toDoCounter = 0;
 
 function setup() {
-  createCanvas(625, 750);
+  canvas = createCanvas(625, 750);
+  canvas.position(20, 50);
   background(239, 201, 175);
   
   textSize(12);
