@@ -31,7 +31,7 @@ function setup() {
   //schedule
   hoursNum = 1;
   hourTextPos = 205
-  text("Hour " + hoursNum, 20, hourTextPos);
+  text("What will you do in hour " + hoursNum, 20, hourTextPos);
   
   theHourInput = createInput();
   theHourInput.position(20, 230);
@@ -110,7 +110,7 @@ function hourTitleReset(num) {
     background(239, 201, 175);
     text("What are your objectives for today? (total 5 items, write blank if to fill)", 20, 30);
     printToDoData();
-    text("Hour " + hoursNum, 20, 205);
+    text("What will you do in hour " + hoursNum, 20, 205);
   } else {
     clear();
     background(239, 201, 175);
